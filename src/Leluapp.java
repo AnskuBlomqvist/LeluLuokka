@@ -4,15 +4,18 @@ public class Leluapp {
 	public static void main(String[] args) {
 
 		Lelu lelu = new Lelu("Auto", 30);
-		//lelu.tulostaTiedot();
+		lelu.tulostaTiedot();
 
 		Vieteriauto vieteriauto = new Vieteriauto("Iso vieteriauto", 50);
+		vieteriauto.kiihdyta();
+		vieteriauto.kiihdyta();
 		vieteriauto.kiihdyta();
 		vieteriauto.kiihdyta();
 		vieteriauto.kiihdyta();
 		vieteriauto.tulostaTiedot();
 
 		Paloauto paloauto = new Paloauto("Punainen paloauto", 40);
+		paloauto.kiihdyta();
 		paloauto.kiihdyta();
 		paloauto.tulostaTiedot();
 	}
