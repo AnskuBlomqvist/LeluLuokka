@@ -10,8 +10,6 @@ public class Leluapp {
 		vieteriauto.kiihdyta();
 		vieteriauto.kiihdyta();
 		vieteriauto.kiihdyta();
-		vieteriauto.kiihdyta();
-		vieteriauto.kiihdyta();
 		vieteriauto.tulostaTiedot();
 
 		Paloauto paloauto = new Paloauto("Punainen paloauto", 40);
